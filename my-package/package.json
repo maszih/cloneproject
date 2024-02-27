@@ -1,32 +1,31 @@
 {
-    "name": "@maszih/cloneproject",
-    "version": "0.0.1",
-    "description": "📦 npm package tutorial",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "files": [
-        "index.js"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/maszih/cloneproject.git"
-    },
-    "keywords": [
-        "npm",
-        "publish",
-        "package",
-        "registry"
-    ],
-    "author": {
-        "name": "lctayu",
-        "email": "pemburumony@gmail.com",
-        "url": "https://bradgarropy.com"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/maszih/cloneproject/issues"
-    },
-    "homepage": "https://github.com/maszih/cloneproject#readme"
+  "name": "cloneproject",
+  "version": "1.0.0",
+  "description": "cloneproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maszih/cloneproject.git"
+  },
+  "keywords": [
+    "kucing"
+  ],
+  "author": "jalu017",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maszih/cloneproject/issues"
+  },
+  "homepage": "https://github.com/maszih/cloneproject#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "webpack": "^5.90.3"
+  },
+  "devDependencies": {
+    "core.js": "^0.4.2",
+    "sass": "^1.71.1"
+  }
 }
